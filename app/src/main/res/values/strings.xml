@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MVPPattern</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_list_title">Add list</string>
+    <string name="recycler_isArchieved_title">is archieved?</string>
+    <string name="recycler_go_to_details_title">go to details</string>
+
+    <string name="create_list_title">Create your list!</string>
+    <string name="title_text">title</string>
+    <string name="save_text">save</string>
+</resources>
