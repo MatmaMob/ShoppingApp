@@ -88,7 +88,6 @@ public class CurrentRecyclerAdapter extends RecyclerView.Adapter<CurrentRecycler
             public void onClick(View v) {
                 presenter.setAdapterData(holder.isArchievedBtn.isChecked(), shoppingList.get(position).getId());
                 holder.isArchievedBtn.setChecked(holder.isArchievedBtn.isChecked());
-                //todo remove logic
             }
         });
     }
