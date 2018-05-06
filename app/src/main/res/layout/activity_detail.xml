@@ -10,7 +10,7 @@
         android:layout_gravity="center">
 
         <TextView
-            android:id="@+id/listIdText"
+            android:id="@+id/listTitleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -24,13 +24,15 @@
                 android:id="@+id/ingredientInput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.9" />
+                android:layout_weight="0.9"
+                android:hint="@string/ingredient_text" />
 
             <Button
                 android:id="@+id/saveIngredientBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.1" />
+                android:layout_weight="0.1"
+                android:text="+" />
 
         </LinearLayout>
 
@@ -44,6 +46,7 @@
         android:id="@+id/saveList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom" />
+        android:layout_gravity="bottom"
+        android:text="@string/save_text" />
 
 </FrameLayout>

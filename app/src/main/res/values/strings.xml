@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MVPPattern</string>
+    <string name="app_name">ShoppingApp</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="add_list_title">Add list</string>
@@ -9,4 +9,5 @@
     <string name="create_list_title">Create your list!</string>
     <string name="title_text">title</string>
     <string name="save_text">save</string>
+    <string name="ingredient_text">ingredient</string>
 </resources>
